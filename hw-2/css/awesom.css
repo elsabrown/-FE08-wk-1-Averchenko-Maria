@@ -1,7 +1,3 @@
-.awesome-container {
-  margin-top: 100px;
-}
-
 .container-title {
   margin-bottom: 25px;
 }
@@ -47,12 +43,7 @@
 }
 
 .card__icon {
-  margin: auto;
-  width: 37px;
-  height: 26px;
-  left: 157px;
-  top: 22px;
-  margin-top: 22px;
+  margin-top: 17px;
 }
 
 .card__title {
@@ -61,8 +52,4 @@
   font-family: "Open Sans", "Arial", sans-serif;
   margin-bottom: 16px;
   line-height: 27px;
-}
-
-.card__text {
-  margin-bottom: 109px;
 }
