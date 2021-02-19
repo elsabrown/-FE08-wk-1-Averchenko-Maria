@@ -1,0 +1,70 @@
+.prising-container {
+  background-color: #e5e5e5;
+}
+
+.prising-text {
+  margin-bottom: 67px;
+  color: #86878b;
+}
+
+.prising-wraper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.prising-item {
+  width: 340px;
+  margin: 0 15px;
+}
+
+.pricing-item_list {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.pricing-list {
+  margin-bottom: 1px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-list_black {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.pricing-list_tarif {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.pricing-list_price {
+  height: 100px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.pricing-list_time {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.pricing-list_white {
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  font-weight: 400;
+}
+
+.pricing-list_hover {
+  background-color: #d98943;
+}
