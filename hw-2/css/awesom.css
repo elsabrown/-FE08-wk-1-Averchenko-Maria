@@ -2,7 +2,7 @@
   margin-bottom: 25px;
 }
 
-.container__line {
+.container-line {
   width: 64px;
   height: 2px;
   border-top: 1px solid #d98943;
@@ -11,12 +11,12 @@
   margin-right: auto;
 }
 
-.container__text {
+.awesome-text {
   margin-bottom: 67px;
   color: #86878b;
 }
 
-.awesome-text {
+.container-text {
   font-size: 14px;
   font-weight: 400px;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -24,16 +24,16 @@
   line-height: 19px;
 }
 
-.container-card {
+.container-wraper {
   display: flex;
   justify-content: space-around;
 }
 
-.card {
+.container-item {
   width: 350px;
 }
 
-.card__image {
+.container-item_pic {
   border: 1px solid #d98943;
   border-radius: 50%;
   width: 70px;
@@ -42,11 +42,11 @@
   margin-bottom: 30px;
 }
 
-.card__icon {
+.container-item_img {
   margin-top: 17px;
 }
 
-.card__title {
+.container-item_title {
   font-size: 20px;
   font-weight: 700px;
   font-family: "Open Sans", "Arial", sans-serif;
