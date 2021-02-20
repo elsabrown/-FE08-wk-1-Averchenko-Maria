@@ -24,10 +24,10 @@
 
 .pricing-list {
   margin-bottom: 1px;
-  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 51px;
 }
 
 .pricing-list_black {
@@ -36,31 +36,26 @@
 }
 
 .pricing-list_tarif {
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 27px;
 }
 
 .pricing-list_price {
-  height: 100px;
   font-family: "Raleway", "Arial", sans-serif;
   font-weight: 700;
   font-size: 35px;
-  line-height: 41px;
+  line-height: 100px;
 }
 
 .pricing-list_time {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 800;
   font-size: 14px;
-  line-height: 19px;
 }
 
 .pricing-list_white {
   background-color: #ffffff;
   font-size: 14px;
-  line-height: 19px;
   color: #86878b;
   font-weight: 400;
 }
