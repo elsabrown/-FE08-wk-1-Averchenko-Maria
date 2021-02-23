@@ -1,0 +1,54 @@
+.customers-wraper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+  }
+
+.customers-text {
+  margin-bottom: 67px;
+  color: #86878b;
+}
+
+.customers-item {
+  width: 340px;
+  margin: 0 15px;
+}
+.customers-item_text {
+  display: block;
+  width: 298px;
+  height: 110px;
+  background: #e2e2e2;
+  border-radius: 7px;
+  color: #86878b;
+  padding: 9px 22px 6px 23px;
+  margin-bottom: 22px;
+}
+
+.customers-item_text p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #e2e2e2;
+}
+
+.customers-item_avatar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item_avatar_title {
+  font-size: 20px;
+  font-weight: 700px;
+  font-weight: bold;
+  font-family: "Open Sans", "Arial", sans-serif;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+
+.item_avatar_text {
+  color: #86878b;
+  text-align: end;
+}
