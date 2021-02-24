@@ -1,8 +1,8 @@
 .customers-wraper {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 -15px;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
 
 .customers-text {
   margin-bottom: 67px;
@@ -42,7 +42,6 @@
 .item_avatar_title {
   font-size: 20px;
   font-weight: 700px;
-  font-weight: bold;
   font-family: "Open Sans", "Arial", sans-serif;
   line-height: 27px;
   margin-bottom: 12px;
