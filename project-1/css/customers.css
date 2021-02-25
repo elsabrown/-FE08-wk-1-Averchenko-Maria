@@ -40,6 +40,7 @@
 }
 
 .item_avatar_title {
+  display: block;
   font-size: 20px;
   font-weight: 700px;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -48,6 +49,7 @@
 }
 
 .item_avatar_text {
+  display: block;
   color: #86878b;
   text-align: end;
 }
