@@ -2,6 +2,9 @@
 @import url("../css/prising.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
+@import url("../css/header.css");
+@import url("../css/social.css");
+@import url("../css/footer.css");
 
 * {
   margin: 0;
@@ -11,7 +14,7 @@
   text-decoration: none;
 }
 
-section {
+.section-size {
   padding: 100px 0;
 }
 
@@ -51,7 +54,7 @@ section {
   line-height: 19px;
 }
 
-.awesome-text p::before {
+/* .awesome-text p::before {
   content: "";
   display: block;
   width: 64px;
@@ -60,4 +63,4 @@ section {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-}
+} */

@@ -4,6 +4,8 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  padding-top: 58px;
+  padding-bottom: 38px;
 }
 
 .axure-container::after {
@@ -44,11 +46,17 @@
 
 .axure-buttom {
   display: block;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   width: 135px;
-  height: 42px;
   padding: 11px 26px;
   margin: auto;
+  cursor: pointer;
+}
+
+.axure-buttom:hover {
+  background-color: #d98943;
+  border-style: none;
+  padding: 12px 27px;
 }
 
 .axure-buttom a {

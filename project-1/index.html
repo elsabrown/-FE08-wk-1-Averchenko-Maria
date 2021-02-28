@@ -14,14 +14,64 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Playfair+Display&family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   </head>
 
   <body>
     <!-- header  -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">
+          <span class="logo_white">ax</span><span class="logo_red">it</span>
+        </div>
+        <nav class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-item_list">feautures</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item_list">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-item_list">pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item_list">reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item_list">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- container social -->
+    <section class="social">
+      <div class="social-container">
+        <div class="social-intro">
+          <h3 class="container-item_title">Social Media</h3>
+          <div class="container-text social-text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+              Aenean euismod bibendum laoreet.
+            </p>
+          </div>
+        </div>
+        <div class="social-link">
+          <ul class="social-link-wraper"></ul>
+          <li class="social-link_icon"><a href="#" class="fab fa-facebook-f"></a></li>
+          <li class="social-link_icon"><a href="#" class="fab fa-twitter"></a></li>
+          <li class="social-link_icon"><a href="#" class="fab fa-google-plus-g"></a></li>
+          <li class="social-link_icon"><a href="#" class="fab fa-pinterest"></a></li>
+          <li class="social-link_icon"><a href="#" class="fab fa-instagram"></a></li>
+          <li class="social-link_icon"><a href="#" class="fab fa-stumbleupon"></a></li>
+          <li class="social-link_icon"><a href="#" class="fas fa-rss"></a></li>
+        </div>
+      </div>
+    </section>
 
-    <!-- container 1 awesome -->
-    <section class="awesome-container">
+    <!-- container awesome -->
+    <section class="awesome-container section-size">
       <div class="container">
         <div class="awesome-intro">
           <h2 class="container-title title">WHY THIS IS AWESOME</h2>
@@ -84,7 +134,8 @@
     </section>
     <!-- container 2 prising -->
 
-    <section class="prising-container">
+    <section class="prising-container section-size">
+      <a name="pricing"></a>
       <div class="container">
         <div class="prising-intro">
           <h2 class="container-title title">pricing options</h2>
@@ -157,7 +208,7 @@
       </div>
     </section>
     <!-- container 3 customers -->
-    <section class="customers-container">
+    <section class="customers-container section-size">
       <div class="container">
         <div class="customers-intro">
           <h2 class="container-title title">what our customers are saying</h2>
@@ -165,7 +216,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="customers-wraper">        
+        <div class="customers-wraper">
           <!-- 1 -->
           <div class="customers-item">
             <div class="customers-item_text container-text">
@@ -230,7 +281,9 @@
     <section class="axure-container">
       <div class="container">
         <div class="axure-intro">
-          <h2 class="container-title title axure-title">STYLISH AXURE DESIGN</h2>
+          <h2 class="container-title title axure-title">
+            STYLISH AXURE DESIGN
+          </h2>
           <div class="axure-text container-text">
             <p>
               Use the sections you need, remove the ones you don't. Create
@@ -239,10 +292,26 @@
           </div>
         </div>
         <div class="axure-buttom">
-          <a href="#">Download</a>
+          <a href="#" class="axure-buttom_link">Download</a>
         </div>
       </div>
     </section>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-link">
+          <ul class="footer-link-wraper"></ul>
+          <li class="footer-link_icon"><a href="#" class="fab fa-facebook-f"></a></li>
+          <li class="footer-link_icon"><a href="#" class="fab fa-twitter"></a></li>
+          <li class="footer-link_icon"><a href="#" class="fab fa-google-plus-g"></a></li>
+          <li class="footer-link_icon"><a href="#" class="fab fa-pinterest"></a></li>
+          <li class="footer-link_icon"><a href="#" class="fab fa-instagram"></a></li>
+          <li class="footer-link_icon"><a href="#" class="fab fa-stumbleupon"></a></li>
+          <li class="footer-link_icon"><a href="#" class="fas fa-rss"></a></li>
+        </div>
+        <div class="copyright">
+         <span class="copyright-text">&#169; 2021 Axure Themes</span> 
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
