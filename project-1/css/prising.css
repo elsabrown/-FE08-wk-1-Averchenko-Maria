@@ -58,6 +58,12 @@
   font-size: 14px;
   color: #86878b;
   font-weight: 400;
+  display: block;
+  cursor: pointer;
+}
+
+.pricing-list_white:hover {
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .pricing-list_hover {
