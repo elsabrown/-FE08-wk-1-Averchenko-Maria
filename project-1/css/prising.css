@@ -16,6 +16,12 @@
 .prising-item {
   width: 340px;
   margin: 0 15px;
+  display: block;
+  cursor: pointer;
+}
+
+.prising-item:hover {
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .pricing-item_list {
@@ -35,11 +41,11 @@
   color: #ffffff;
 }
 
-.pricing-list_black:hover {
+/* .pricing-list_black:hover {
   background-color: #d98943;
   display: block;
   cursor: pointer;
-}
+} */
 
 .pricing-list_tarif {
   font-weight: 700;
@@ -64,10 +70,10 @@
   font-size: 14px;
   color: #86878b;
   font-weight: 400;
-  display: block;
-  cursor: pointer;
+  /* display: block;
+  cursor: pointer; */
 }
 
-.pricing-list_white:hover {
+/* .pricing-list_white:hover {
   box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
-}
+} */
