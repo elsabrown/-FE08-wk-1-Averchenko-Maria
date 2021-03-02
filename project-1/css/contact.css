@@ -46,6 +46,7 @@
   height: 46px;
   border-style: none;
   border-bottom: 1px solid #bdbdbd;
+  outline: 0px;
 }
 
 .input-form:hover {
@@ -60,6 +61,7 @@
   align-self: flex-end;
   border-style: none;
   border-bottom: 1px solid #bdbdbd;
+  outline: 0px;
 }
 
 .message-form:hover {
@@ -82,7 +84,7 @@
   margin-bottom: 50px;
 }
 
-.contact-buttom {
+.contact-button {
   display: block;
   background-color: #ec7979;
   width: 166px;
@@ -91,7 +93,7 @@
   cursor: pointer;
 }
 
-.contact-buttom a {
+.contact-button a {
   color: #ffffff;
   font-size: 15px;
   font-weight: 600px;
@@ -99,6 +101,6 @@
   line-height: 20px;
 }
 
-.contact-buttom:hover {
+.contact-button:hover {
   box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
 }

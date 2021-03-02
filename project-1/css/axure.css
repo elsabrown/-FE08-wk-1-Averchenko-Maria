@@ -44,7 +44,7 @@
   margin-right: auto;
 }
 
-.axure-buttom {
+.axure-button {
   display: block;
   border: 1px solid #ffffff;
   width: 135px;
@@ -53,13 +53,13 @@
   cursor: pointer;
 }
 
-.axure-buttom:hover {
+.axure-button:hover {
   background-color: #d98943;
   border-style: none;
   padding: 12px 27px;
 }
 
-.axure-buttom a {
+.axure-button a {
   color: #ffffff;
   font-size: 15px;
   font-weight: 600px;
