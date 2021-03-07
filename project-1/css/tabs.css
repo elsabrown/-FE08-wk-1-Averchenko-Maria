@@ -27,7 +27,6 @@
 .tab-item:hover {
   background-color: #ec7979;
   box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
 }
 
 .tab-item_text {
@@ -43,16 +42,17 @@
 
 .tabs-intro {
   margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .tabs-intro_title {
-  margin-bottom: 58px;
   text-transform: uppercase;
 }
 
 .tabs-into_text {
-  margin-bottom: 89px;
-  color: #86878B;
+  color: #86878b;
 }
 
 .tabs-button {
