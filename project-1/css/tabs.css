@@ -7,7 +7,6 @@
 }
 
 .tabs-tab {
-  display: block;
   margin-right: 118px;
 }
 
@@ -53,6 +52,7 @@
 
 .tabs-into_text {
   color: #86878b;
+  margin-bottom: 15px;
 }
 
 .tabs-button {
