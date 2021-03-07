@@ -123,7 +123,8 @@
   outline: 0px;
 }
 
-.wraper-axit_buttom {
+.axit-form_input:hover {
+  border-color: #e72424;
 }
 
 .axit-form_button {
