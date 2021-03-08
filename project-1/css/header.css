@@ -50,3 +50,16 @@
 .nav-item_list:hover {
     color: #d98943;
 }
+
+@media (max-width: 360px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-item {
+    margin-right: 10px;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+}

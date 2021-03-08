@@ -4,6 +4,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  padding: 100px 0;
 }
 
 .axit:after {
@@ -155,4 +156,40 @@
   line-height: 19px;
   text-transform: capitalize;
   color: #bdbdbd;
+}
+
+@media (max-width: 360px) {
+  .axit-container {
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+  .axit-intro {
+    margin-bottom: 30px;
+  }
+  .axit-form {
+    justify-content: center;
+    align-items: center;
+  }
+  .axit-form {
+    width: 320px;
+  }
+  .axit-form_input {
+    width: 220px;
+  }
+  .axit-form_button {
+    width: 320px;
+  }
+  .axit-intro {
+    text-align: center;
+  }
+.title-axit::after {
+  margin: auto;
+  margin-top: 30px;
+}
+.axit-button {
+  margin: auto;
+}
+.axit {
+  padding: 50px 0;
+}
 }

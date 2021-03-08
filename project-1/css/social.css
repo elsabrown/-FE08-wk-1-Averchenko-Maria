@@ -38,3 +38,29 @@
 .social-link_icon a {
   color: #cccccc;
 }
+
+@media (max-width: 804px) {
+  .social-link_icon {
+    font-size: 30px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  .social-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-intro {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .social-link {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-link_icon {
+    font-size: 25px;
+    display: block;
+  }
+}

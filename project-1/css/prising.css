@@ -1,5 +1,6 @@
-.prising-container {
+.prising {
   background-color: #e5e5e5;
+  padding: 100px 0;
 }
 
 .prising-text {
@@ -70,10 +71,22 @@
   font-size: 14px;
   color: #86878b;
   font-weight: 400;
-  /* display: block;
-  cursor: pointer; */
 }
 
-/* .pricing-list_white:hover {
-  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
-} */
+@media (max-width: 874px) {
+  .prising {
+    padding: 50px 0;
+  }
+  .prising-text {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .prising-wraper {
+    flex-wrap: wrap;
+  }
+  .prising-item {
+    margin-bottom: 30px;
+  }
+}

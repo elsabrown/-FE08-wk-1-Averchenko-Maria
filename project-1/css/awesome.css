@@ -1,3 +1,7 @@
+.awesome {
+  padding: 100px 0;
+}
+
 .awesome-text {
   margin-bottom: 67px;
   color: #86878b;
@@ -33,4 +37,22 @@
   font-family: "Open Sans", "Arial", sans-serif;
   margin-bottom: 16px;
   line-height: 27px;
+}
+
+@media (max-width: 874px) {
+  .awesome {
+    padding: 50px 0;
+  }
+  .awesome-text {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container-wraper {
+    flex-wrap: wrap;
+  }
+  .container-item {
+    margin-bottom: 20px;
+  }
 }

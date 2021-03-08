@@ -1,3 +1,7 @@
+.customers {
+  padding: 100px 0;
+}
+
 .customers-wraper {
   display: flex;
   justify-content: space-between;
@@ -51,4 +55,18 @@
   display: block;
   color: #86878b;
   text-align: end;
+}
+
+@media (max-width: 986px) {
+  .customers {
+    padding: 50px 0px;
+  }
+  .customers-wraper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .customers-item {
+    margin-bottom: 20px;
+  }
 }
