@@ -127,11 +127,20 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .input-form {
     width: 320px;
   }
   .message-form{
     width: 320px;
+  }
+}
+
+@media (max-width: 340px) {
+  .input-form {
+    width: 290px;
+  }
+  .message-form{
+    width: 290px;
   }
 }
