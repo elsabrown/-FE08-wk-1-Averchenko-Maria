@@ -61,6 +61,9 @@
   .customers {
     padding: 50px 0px;
   }
+  .customers-container {
+    max-width: 986px;
+  }
   .customers-wraper {
     flex-wrap: wrap;
     align-items: center;

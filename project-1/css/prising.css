@@ -77,12 +77,18 @@
   .prising {
     padding: 50px 0;
   }
+  .prising-container {
+    max-width: 874px;
+  }
   .prising-text {
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 800px) {
+  .prising-container {
+    max-width: 800px;
+  }
   .prising-wraper {
     flex-wrap: wrap;
     justify-content: center;
@@ -93,6 +99,9 @@
 }
 
 @media (max-width: 524px) {
+  .prising-container {
+    max-width: 524px;
+  }
   .prising-wraper {
     flex-wrap: wrap;
     justify-content: center;

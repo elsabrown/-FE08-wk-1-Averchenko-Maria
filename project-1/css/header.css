@@ -53,6 +53,7 @@
 
 @media (max-width: 572px) {
   .header-container {
+    max-width: 572px;
     display: flex;
     flex-direction: column;
   }
@@ -65,6 +66,9 @@
 }
 
 @media (max-width: 340px) {
+  .header-container {
+    max-width: 340px;
+  }
   .nav-item_list {
     font-size: 12px;
   }

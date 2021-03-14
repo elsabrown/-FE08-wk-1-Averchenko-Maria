@@ -42,6 +42,12 @@
 
 .title-axit {
   color: #fff;
+  font-size: 36px;
+  font-weight: 400px;
+  line-height: 36px;
+  font-family: "Raleway", "Arial", sans-serif;
+  margin-bottom: 35px;
+  text-transform: uppercase;
 }
 
 .title-axit::after {
@@ -161,10 +167,15 @@
   color: #bdbdbd;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 376px) {
   .axit-container {
+    max-width: 376px;
     flex-wrap: wrap;
     margin: 0px;
+  }
+  .title-axit {
+    font-size: 30px;
+    line-height: 30px;
   }
   .axit-intro {
     margin-bottom: 30px;
@@ -199,6 +210,7 @@
 
 @media (max-width: 712px) {
   .axit-container {
+    max-width: 712px;
     flex-wrap: wrap;
     margin: 0px;
     justify-content: center;

@@ -86,6 +86,7 @@
     padding: 50px 0px;
   }
   .tabs-container {
+    max-width: 874px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -114,6 +115,9 @@
 
 @media (max-width: 360px) {
   .tabs {
+    max-width: 360px;
+  }
+  .tabs-container {
     max-width: 360px;
   }
   .tab-item {

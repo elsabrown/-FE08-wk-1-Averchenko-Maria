@@ -43,6 +43,9 @@
 }
 
 @media (max-width: 360px) {
+  .footer-container {
+    max-width: 360px;
+  }
   .footer-link_icon {
     font-size: 20px;
     margin-right: 25px;

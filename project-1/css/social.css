@@ -40,6 +40,9 @@
 }
 
 @media (max-width: 804px) {
+  .social-container {
+    max-width: 804px;
+  }
   .social-link_icon {
     font-size: 30px;
     margin-right: 24px;
@@ -48,6 +51,7 @@
 
 @media (max-width: 520px) {
   .social-container {
+    max-width: 520px;
     display: flex;
     flex-direction: column;
     justify-content: center;
