@@ -82,6 +82,16 @@
   }
 }
 
+@media (max-width: 800px) {
+  .prising-wraper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .prising-item {
+    margin-bottom: 40px;
+  }
+}
+
 @media (max-width: 524px) {
   .prising-wraper {
     flex-wrap: wrap;

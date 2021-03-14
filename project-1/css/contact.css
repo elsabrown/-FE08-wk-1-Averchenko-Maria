@@ -125,22 +125,31 @@
   .contact-text {
     margin-bottom: 30px;
   }
+  .input-form {
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 500px) {
   .input-form {
     width: 320px;
   }
-  .message-form{
+  .message-form {
     width: 320px;
+  }
+  .input-form {
+    margin-right: 0px;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 400px) {
   .input-form {
     width: 290px;
   }
-  .message-form{
+  .message-form {
     width: 290px;
+  }
+  .input-form {
+    margin-right: 0px;
   }
 }
