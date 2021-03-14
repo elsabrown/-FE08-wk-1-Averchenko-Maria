@@ -207,4 +207,8 @@
   .axit-form {
     margin-top: 35px;
   }
+  .title-axit::after {
+    margin: auto;
+    margin-top: 30px;
+  }
 }
