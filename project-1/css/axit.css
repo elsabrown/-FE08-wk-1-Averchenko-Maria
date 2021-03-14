@@ -67,14 +67,15 @@
   display: block;
   border: 1px solid #ffffff;
   width: 135px;
-  padding: 11px 26px;
   cursor: pointer;
 }
 
 .axit-button:hover {
   background-color: #ec7979;
   border-style: none;
-  padding: 12px 27px;
+  border: 1px solid #ec7979;
+  text-align: center;
+  display: block;
 }
 
 .axit-button a {
@@ -82,7 +83,9 @@
   font-size: 15px;
   font-weight: 600px;
   font-family: "Open Sans", "Arial", sans-serif;
-  line-height: 20px;
+  line-height: 42px;
+  text-align: center;
+  display: block;
 }
 
 .axit-form {

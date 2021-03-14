@@ -63,7 +63,6 @@
   display: block;
   background-color: #ec7979;
   width: 135px;
-  padding: 11px 26px;
   cursor: pointer;
 }
 
@@ -77,8 +76,9 @@
   font-size: 15px;
   font-weight: 600px;
   font-family: "Open Sans", "Arial", sans-serif;
-  line-height: 20px;
+  line-height: 42px;
   text-align: center;
+  display: block;
 }
 
 @media (max-width: 874px) {
@@ -87,7 +87,6 @@
   }
   .tabs-container {
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: space-around;
   }
   .tabs-tab {

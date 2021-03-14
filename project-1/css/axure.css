@@ -48,7 +48,9 @@
   display: block;
   border: 1px solid #ffffff;
   width: 135px;
-  padding: 11px 26px;
+  line-height: 42px;
+  text-align: center;
+  display: block;
   margin: auto;
   cursor: pointer;
 }
@@ -56,7 +58,8 @@
 .axure-button:hover {
   background-color: #d98943;
   border-style: none;
-  padding: 12px 27px;
+  line-height: 42px;
+  border: 1px solid #d98943;
 }
 
 .axure-button a {
