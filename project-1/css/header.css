@@ -36,7 +36,7 @@
 }
 
 .nav-item:last-child {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 
 .nav-item_list {
@@ -48,7 +48,7 @@
 }
 
 .nav-item_list:hover {
-    color: #d98943;
+  color: #d98943;
 }
 
 @media (max-width: 572px) {
@@ -61,5 +61,11 @@
   }
   .logo {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 340px) {
+  .nav-item_list {
+    font-size: 12px;
   }
 }
